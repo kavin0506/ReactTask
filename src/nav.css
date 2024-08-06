@@ -1,0 +1,79 @@
+.navbar{
+    box-shadow: 0 0 10px;
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.searchbar{
+    width: 50%;
+}
+.navbar input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0 10px;
+    outline: none;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.table table,tr,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    height: 35px;
+    width: 20%;
+}
+.table{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+   
+}
+.table table{
+    width: 50%;
+}
+.edit{
+    background-color: green;
+    margin: 0 2px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+}
+.delete{
+    background-color: red;
+    margin: 0 2px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+}
+.addform{
+    margin: 25px 0;
+}
+.addform input{
+    
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+.addform button{
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+    width: 10%;
+    height: 30px;
+}
